@@ -50,7 +50,7 @@ public class Animation {
 								if(!broadcastable.contains(items.get(itemInt))) {
 									p.sendMessage(Main.prefix + "Du hast §e" + (items.get(itemInt).getItemMeta() != null && items.get(itemInt).getItemMeta().getDisplayName() != null ? items.get(itemInt).getItemMeta().getDisplayName() : items.get(itemInt).getType().toString()) + "§7 aus einer " + crate +" erhalten");
 								}else {
-									Bukkit.broadcastMessage(Main.prefix + "Der Spieler §e" + p.getName() + "§7 hat §e" + (items.get(itemInt).getItemMeta() != null && items.get(itemInt).getItemMeta().getDisplayName() != null ? items.get(itemInt).getItemMeta().getDisplayName() : items.get(itemInt).getType().toString()) + "§7 aus einer §e" + crate + "Crate§7 gezogen.");
+									Bukkit.broadcastMessage(Main.prefix + "Der Spieler §e" + p.getName() + "§7 hat §e" + (items.get(itemInt).getItemMeta() != null && items.get(itemInt).getItemMeta().getDisplayName() != null ? items.get(itemInt).getItemMeta().getDisplayName() : items.get(itemInt).getType().toString()) + "§7 aus einer §e" + crate + "§7 gezogen.");
 								}
 								win.remove(p);
 							}
