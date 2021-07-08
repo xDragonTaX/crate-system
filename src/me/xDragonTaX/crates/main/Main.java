@@ -71,7 +71,7 @@ public class Main extends JavaPlugin{
 				prefix = cfg.getString("prefix");
 				prefix = ChatColor.translateAlternateColorCodes('&', prefix);
 			}else {
-				prefix = "§8» §a§lCrates §8┃§7 ";
+				prefix = "&8» &a&lCrates &8┃&7 ";
 				cfg.set("prefix", prefix);
 			}
 			if(cfg.getString("Permission Prefix") != null) {
@@ -89,17 +89,18 @@ public class Main extends JavaPlugin{
 			
 			
 			
-			if(cfg.getString("nopermissionmessage") != null) {
-				permission = cfg.getString("nopermissionmessage");
+			if(cfg.getString("No Permission Message") != null) {
+				permission = cfg.getString("No Permission Message");
+				permission = ChatColor.translateAlternateColorCodes('&', permission);
 			}else {
-				permission = "§a§lCrates §8┃ §cDazu hast du keine Rechte!";
-				cfg.set("nopermissionmessage", permission);
+				permission = "&a&lCrates &8┃ &cDazu hast du keine Rechte!";
+				cfg.set("No Permission Message", permission);
 			}
-			if(cfg.getString("onlyplayerscanusethis") != null) {
-				onlyplayerscanusethis = cfg.getString("onlyplayerscanusethis");
+			if(cfg.getString("Only Players Can use this") != null) {
+				onlyplayerscanusethis = cfg.getString("Only Players Can use this");
 			}else {
 				onlyplayerscanusethis = "Dieser Befehl kann nur von Spielern ausgeführt werden";
-				cfg.set("onlyplayerscanusethis", onlyplayerscanusethis);
+				cfg.set("Only Players Can use this", onlyplayerscanusethis);
 			}
 			
 			try {
