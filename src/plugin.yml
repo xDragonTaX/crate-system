@@ -1,0 +1,12 @@
+name: CrateSystem
+author: xDragonTaX
+main: me.xDragonTaX.crates.main.Main
+version: 1.0
+Description: Crate System by xDragonTaX
+
+commands:
+   crate:
+      aliases: [crates]
+   openall:
+   settings:
+   testanimation:
