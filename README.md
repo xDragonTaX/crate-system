@@ -38,8 +38,8 @@ Text in [] = Optional
 
   
 ## Permissions
-  /crate : crates.admin
-  /openall : crates.openall.ANZAHL
+  - /crate : crates.admin
+  - /openall : crates.openall.ANZAHL
   
   Bei Openall kann die maximale Anzahl an gleichzeitig öffenbaren Crates angegeben werden. Mögliche Anzahl: 8, 16, 32, 48, 64
   
