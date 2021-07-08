@@ -1,7 +1,7 @@
 # Crate System
 
 
-### Commands:
+## Commands:
 
 - /crate : Zeigt alle Befehele an
 - /crate reload : Lädt die config neu
@@ -26,7 +26,7 @@
 Text in <> = Required,
 Text in [] = Optional
   
-### Weiters
+## Weiteres
   In settings Deaktivierbar:
   - Animation
   - Bestätigung
@@ -37,7 +37,7 @@ Text in [] = Optional
   ![grafik](https://user-images.githubusercontent.com/40772868/124969077-91893700-e026-11eb-811a-bccd52355931.png)
 
   
-### Permissions
+## Permissions
   /crate : crates.admin
   /openall : crates.openall.ANZAHL
   
